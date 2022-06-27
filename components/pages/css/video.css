@@ -1,0 +1,98 @@
+@media only screen and (max-width:1000px) {
+.video{
+    width: 100%;
+    height : 400%;
+}
+.discription{
+    position: absolute;
+    top:750px;
+    padding: 30px;
+}
+
+}
+@media only screen and (max-width:800px) {
+    .video{
+        width: 100%;
+        height : 400%;
+    }
+    .discription{
+        position: absolute;
+        top:750px;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width:560px) {
+    .video{
+        margin-top:10px;
+        width: 100%;
+        height : 200%;
+    } 
+    .discription{
+        position: absolute;
+        top:430px;
+        padding: 30px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .video{
+        width: 100%;
+        height :400%;
+    }
+    .discription{
+        position: absolute;
+        top:750px;
+        padding: 30px;
+    }
+    }
+
+.name{
+    font-weight: bold;
+    font-size: larger;
+}
+.input{
+    width: 90%;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(3, 3, 3); 
+    padding:10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.post{
+   
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+   padding: 10px;
+    background-color: aquamarine;
+}
+.avatar{
+    width: 30px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.cmtcontainer{
+    display: flex;
+    
+}
+.cmtname{
+    font-weight: bold;
+   padding-top: 20px;;
+}
+.warningLogin{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.dele{
+  padding-top: 20px;
+  padding-left: 30px;
+
+  
+}
+.Cmt{
+    padding-left: 30px;
+    width:80%;
+    border-bottom: 1px solid gray;
+}
